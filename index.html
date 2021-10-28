@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Home Section -->
+        <div class="navbar">
+            <p class="websiteName">NewTech</p>
+            <div class="navbarOptions">
+                <div class="homeOption">Home</div>
+                <div class="techsOption">Techs</div>
+                <div class="projectsOption">Projects</div>
+                <div class="pricingOption">Pricing</div>
+                <div class="teamOption">Team</div>
+                <div class="contactOption">Contact</div>
+            </div>
+        </div>
+        <div id="slider">
+            <ul id="slideWrap"> 
+                <li><img src="images/combined.jpg" alt="Laptop" class="homeImage"></li>
+                <li><img src="images/Mobile.jpg" alt="Mobile" class="homeImage"></li>
+                <li><img src="images/PC.jpg" alt="PC" class="homeImage"></li>
+                <li><img src="images/tablet.jpg" alt="tablet" class="homeImage"></li>
+                <li><img src="images/Laptop.jpg" alt="combined" class="homeImage"></li>
+            </ul>
+        </div>
+        <h1 class="sliderMainTagline">WELCOME TO THE TECHNOLOGIES FIELD!</h1>
+        <h3 class="sliderTagline">IT'S NOT THAT WE USE TECHNOLOGY, WE LIVE TECHNOLOGY.</h3>
+
+        <!-- Technologies Section -->
+        <div class="technologies">
+            <h1 class="technologiesHeading">TECHNOLOGIES</h1>
+            <div class="carousel-technologies" data-flickity='{ "wrapAround": false, "groupCells": true, "autoPlay": false }'>
+                <img src="images/Web_Development.jpg" alt="Web Development" class="technologiesImage carousel-cell-technologies">
+                <img src="images/Android_App_Development.jpg" alt="Android App Development" class="technologiesImage carousel-cell-technologies">
+                <img src="images/Data_Science.jpeg" alt="Data Science" class="technologiesImage carousel-cell-technologies">
+                <img src="images/Machine_Learning.jpeg" alt="Machine Learning" class="technologiesImage carousel-cell-technologies">
+                <img src="images/Artificial_Intelligence.png" alt="Artificial Intelligence" class="technologiesImage carousel-cell-technologies">
+                <div class="carousel-cell"><img src="images/Cloud_Computing.png" alt="Cloud Computing" class="technologiesImage1 carousel-cell-technologies"></div>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="projects">
+            <h1 class="projectsHeading">PROJECTS</h1>
+            <div class="carousel-projects" data-flickity='{ "wrapAround": false, "groupCells": true, "autoPlay": false }'>
+                <div class="projectsDiv carousel-cell-projects">
+                    <h2 class="webDevHeading">Web Development</h2>
+                    <ul>
+                        <li class="projectsDescription">Use below Projects as practice or enhance your skills with these fun Web Development Project ideas.</li></br>
+                        <li class="projectsDescription">Front End and Back End both the projects are available.</li></br>
+                        <li class="projectsDescription">From beginner level Web Development Projects to more advanced ones.</li></br>
+                        <li class="projectsDescription">Find your next Coding Project now.</li></br>
+                    </ul>
+                    <div class="projectsRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="enrolledStudents">26,419 Students Enrolled</div>
+                    <button class="projectsButtons">Enroll Now</button>
+                </div>
+
+                <div class="projectsDiv carousel-cell-projects">
+                    <h2 class="androidDevHeading">Android Development</h2>
+                    <ul>
+                        <li class="projectsDescription">Use below Projects as practice or enhance your skills with these fun Android Development Project ideas.</li></br>
+                        <li class="projectsDescription">Practice in Android Studio and learn new things to build your career.</li></br>
+                        <li class="projectsDescription">From beginner level Android Development Projects to more advanced ones.</li></br>
+                        <li class="projectsDescription">Find your next Coding Project now.</li></br>
+                    </ul>
+                    <div class="projectsRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="enrolledStudents">19,204 Students Enrolled</div>
+                    <button class="projectsButtons">Enroll Now</button>
+                </div>
+
+                <div class="projectsDiv carousel-cell-projects">
+                    <h2 class="dataScienceHeading">Data Science</h2>
+                    <ul>
+                        <li class="projectsDescription">Use below Projects as practice or enhance your skills with these fun Data Science Project ideas.</li></br>
+                        <li class="projectsDescription">Start building out your Portfolio with real Data Science Projects today.</li></br>
+                        <li class="projectsDescription">Learn more applications from beginner level Data Science Projects to more advanced ones.</li></br>
+                        <li class="projectsDescription">Find your next Coding Project now.</li></br>
+                    </ul>
+                    <div class="projectsRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="enrolledStudents">22,672 Students Enrolled</div>
+                    <button class="projectsButtons">Enroll Now</button>
+                </div>
+
+                <div class="projectsDiv carousel-cell-projects">
+                    <h2 class="machineLearningHeading">Machine Learning</h2>
+                    <ul>
+                        <li class="projectsDescription">These Machine Learning project ideas will help you in learning all the practicalities that you need to succeed in your career.</li></br>
+                        <li class="projectsDescription">It will also be really helpful in making you employable in the industry.</li></br>
+                        <li class="projectsDescription">From beginner level Machine Learning Projects to more advanced ones.</li></br>
+                        <li class="projectsDescription">Find your next Coding Project now.</li></br>
+                    </ul>
+                    <div class="projectsRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="enrolledStudents">12,156 Students Enrolled</div>
+                    <button class="projectsButtons">Enroll Now</button>
+                </div>
+
+                <div class="projectsDiv carousel-cell-projects">
+                    <h2 class="artificialIntelligenceHeading">Artificial Intelligence</h2>
+                    <ul>
+                        <li class="projectsDescription">Use below Projects as practice or enhance your skills with these interesting Artificial Intelligence Project ideas.</li></br>
+                        <li class="projectsDescription">Learn advanced versions of Intelligence.</li></br>
+                        <li class="projectsDescription">From beginner level Artificial Intelligence Projects to more advanced ones.</li></br>
+                        <li class="projectsDescription">Find your next Coding Project now.</li></br>
+                    </ul>
+                    <div class="projectsRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="enrolledStudents">22,831 Students Enrolled</div>
+                    <button class="projectsButtons">Enroll Now</button>
+                </div>
+
+                <div class="projectsDiv carousel-cell-projects">
+                    <h2 class="cloudComputingHeading">Cloud Computing</h2>
+                    <ul>
+                        <li class="projectsDescription">Use below Projects as practice or enhance your skills with these interesting Cloud Project ideas.</li></br>
+                        <li class="projectsDescription">Get Cloud Security projects, Cloud optimization systems as well as other Cloud based projects for various domains.</li></br>
+                        <li class="projectsDescription">From beginner level Cloud Projects to more advanced ones.</li></br>
+                        <li class="projectsDescription">Find your next Coding Project now.</li></br>
+                    </ul>
+                    <div class="projectsRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <div class="enrolledStudents">14,905 Students Enrolled</div>
+                    <button class="projectsButtons">Enroll Now</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Pricing Section -->
+        <div class="pricing">
+            <h1 class="pricingHeading">PRICING</h1>
+            <div class="carousel-pricing" data-flickity='{ "wrapAround": false, "groupCells": true, "autoPlay": false }'>
+                <div class="pricingDiv carousel-cell-pricing">
+                    <h2 class="webDevHeading">Web Development</h2>
+                    <p class="pricingDescription">Web Development real time projects.</p></br>
+                    <h3 class="webDevProjectNumbers">12 FRONTEND + 8 BACKEND PROJECTS</h3>
+                    <h2 class="projectPrice">₹ 12,000</h2>
+                    <div class="pricingRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <button class="pricingButtons">Enroll Now</button>
+                </div>
+
+                <div class="pricingDiv carousel-cell-pricing">
+                    <h2 class="androidDevHeading">Android Development</h2>
+                    <p class="pricingDescription">Android Development real time projects.</p></br>
+                    <h3 class="androidDevProjectNumbers">25 PROJECTS</h3>
+                    <h2 class="projectPrice">₹ 15,000</h2>
+                    <div class="pricingRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="pricingButtons">Enroll Now</button>
+                </div>
+
+                <div class="pricingDiv carousel-cell-pricing">
+                    <h2 class="dataScienceHeading">Data Science</h2>
+                    <p class="pricingDescription">Data Science real time projects.</p></br>
+                    <h3 class="dataScienceProjectNumbers">20 PROJECTS</h3>
+                    <h2 class="projectPrice">₹ 10,000</h2>
+                    <div class="pricingRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <button class="pricingButtons">Enroll Now</button>
+                </div>
+
+                <div class="pricingDiv carousel-cell-pricing">
+                    <h2 class="machineLearningHeading">Machine Learning</h2>
+                    <p class="pricingDescription">Machine Learning real time projects.</p></br>
+                    <h3 class="machineLearningProjectNumbers">20 PROJECTS</h3>
+                    <h2 class="projectPrice">₹ 14,000</h2>
+                    <div class="pricingRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="pricingButtons">Enroll Now</button>
+                </div>
+
+                <div class="pricingDiv carousel-cell-pricing">
+                    <h2 class="artificialIntelligenceHeading">Artificial Intelligence</h2>
+                    <p class="pricingDescription">Artificial Intelligence real time projects.</p></br>
+                    <h3 class="artificialIntelligenceProjectNumbers">20 PROJECTS</h3>
+                    <h2 class="projectPrice">₹ 12,000</h2>
+                    <div class="pricingRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <button class="pricingButtons">Enroll Now</button>
+                </div>
+
+                <div class="pricingDiv carousel-cell-pricing">
+                    <h2 class="cloudComputingHeading">Cloud Computing</h2>
+                    <p class="pricingDescription">Cloud Computing real time projects.</p></br>
+                    <h3 class="cloudComputingProjectNumbers">20 PROJECTS</h3>
+                    <h2 class="projectPrice">₹ 12,500</h2>
+                    <div class="pricingRating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <button class="pricingButtons">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Members Section -->
+        <div class="teamMembers">
+            <h1 class="teamMembersHeading">TEAM MEMBERS</h1>
+            <div class="teamMembersPicsDiv">
+                <div class="teamMembersDiv1">
+                    <img src="images/Team_Members_1.jpg" class="teamMembersPic1" alt="Team Members 1">
+                </div>
+                <div class="teamMembersDiv2">
+                    <img src="images/Team_Members_2.jpg" class="teamMembersPic2" alt="Team Members 2">
+                </div>
+                <div class="teamMembersDiv3">
+                    <img src="images/Team_Members_3.jpg" class="teamMembersPic3" alt="Team Members 3">
+                </div>
+                <div class="teamMembersDiv4">
+                    <img src="images/Team_Members_4.jpg" class="teamMembersPic4" alt="Team Members 4">
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Details Section -->
+        <div class="contact">
+            <h1 class="contactHeading">CONTACT DETAILS</h1>
+            <div class="mainDiv">
+                <div class="leftDiv">
+                    <h1 class="leftDivHeading">LEAVE A MESSAGE</h1>
+                    <form class="form"> 
+                        <input class="name" type="text" name="Name" placeholder="Full Name">
+                        <input class="email" type="email" name="Email" placeholder="Email">
+                        <input class="mobile" type="number" name="Contact No." placeholder="Contact No.">
+                        <textarea class="message" type="text" name="Message" placeholder="Your Message" id="message"></textarea>
+                        <div class="submitBtnsDiv">
+                            <button class="submitBtn" type="button">SEND</button>
+                            <input class="resetBtn" type="reset" value="RESET">
+                        </div>
+                    </form>
+                </div>
+                <div class="rightDiv">
+                    <h1 class="rightDivHeading">GET IN TOUCH</h1>
+                    <div class="locationDiv">
+                        <span class="material-icons locationIcon">
+                            location_on
+                        </span>
+                        <p class="locationParagraph">: WZ G-93 Tilak Nagar, New Delhi, 110018</p>
+                    </div>
+    
+                    <div class="contactDiv">
+                        <span class="material-icons contactIcon">
+                            call
+                        </span>
+                        <p class="contactParagraph">: +91-9205146524</p>
+                    </div>
+    
+                    <div class="emailDiv">
+                        <span class="material-icons emailIcon">
+                            email
+                        </span>
+                        <p class="emailParagraph">: taranjot11111@gmail.com</p>
+                    </div>
+                    <div class="socialMediaIconsDiv">
+                        <div class="socialMediaIconsUpperDiv">
+                            <a href="https://www.facebook.com/taranjot.singh.5439087/" class="fa fa-facebook facebookIcon"></a>
+                            <a href="https://twitter.com/Taranjo59873775" class="fa fa-twitter twitterIcon"></a>
+                        </div>
+                        <div class="socialMediaIconsLowerDiv">
+                            <a href="https://www.instagram.com/taranjot9229/" class="fa fa-instagram instagramIcon"></a>
+                            <a href="https://www.linkedin.com/in/taranjot-singh-bbb875202/" class="fa fa-linkedin linkedinIcon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.48129454427!2d77.06889950048124!3d28.527280343701566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1634991544887!5m2!1sen!2sin" width="600" height="450" style="border:1px solid black;" allowfullscreen=""></iframe>
+        </div>
+
+        <!-- CopyRight Section -->
+        <div class="copyrightDiv">
+            <span class="material-icons copyrightIcon">
+                copyright
+            </span>
+            <h1 class="copyrightHeading">Taranjot Singh | 2021 NewTech - All Rights Reserved.</h1>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
